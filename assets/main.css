@@ -1,0 +1,178 @@
+.bg-image-buddy{
+    background: url(../assets/camera-lens.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:black;
+    border: 0;
+}
+
+.navbar-main {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 3;
+    background-color: black;
+    border: 0;
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    
+}
+
+
+
+
+.social {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color:black;
+}
+
+.social a {
+    margin-right: 30px;
+    color: white;
+     background-color:black;
+}
+
+.page-title{
+    background-color:  rgba(0,0,0,0.5);
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 3px;
+    color: white;
+    margin-top: 7em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+.page-content{
+   
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 2em;
+    margin-top:3em;
+    margin-bottom: 3em;
+    margin-left: 0;
+}
+
+.paragraph{
+     background-color:rgba(156, 120, 40, 0.2) ;
+     border-width: 3px;
+     border-radius:30px;
+     border-color: white;
+     border-style: groove;
+     margin-top: 2em;
+}
+ .page-footer{
+     padding: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background-color:black;
+    border: 0;
+    color: white;
+ }
+ 
+ .button {
+    padding: 15px;
+    position: relative;
+    margin-top: 40px;
+    
+    margin-bottom: 30px;
+    background-color: rgb( 212, 175, 55);
+    border-color: transparent;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ffd232;
+    color: white;
+text-decoration: none;
+}
+
+
+.lou-title{
+    font-family: "Lora", serif;
+    position: relative;
+    margin-top: 1em;
+    text-align: center;
+    color: rgb( 212, 175, 55);
+}
+
+.contact-email{
+    
+    text-align: center;
+    margin-top: 35px;
+    color: rgb( 212, 175, 55);
+}
+
+#les-mills,
+#nasm,
+#cimpsa {
+    height: 5em;
+}
+
+
+@media(max-width:991px){
+    .social{
+        visibility:hidden;
+    }
+}
