@@ -167,7 +167,24 @@ form {
     text-align: center;
 }
 
+.email{
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+    font-size: 1.5em;
+}
 
+.email:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+    color: white;
+}
+
+
+.text-box{
+    
+}
 
 .bg-image-buddy{
     background: url(../assets/nature-outdoor-rock-silhouette-light-cloud-1026034-pxhere.com.jpg) no-repeat center center fixed;
@@ -304,17 +321,21 @@ form {
      border-style: groove;
      margin-top: 2em;
 }
- .page-footer{
-     padding: 0;
+
+@media(min-width: 1024px){
+ .bottom {
+     margin-top:calc(100vh - 80px);
+     padding-bottom: 0;
     margin-bottom: 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,.50);
+    background-color: black;
     border: 0;
     color: white;
  }
+}
  
  .button {
     padding: 15px;
@@ -353,6 +374,10 @@ text-decoration: none;
     color: rgb( 212, 175, 55);
 }
 
+.image-rounded{
+    margin-top: 1em;
+}
+
 #les-mills,
 #nasm,
 #cimpsa {
@@ -377,6 +402,7 @@ text-decoration: none;
     margin-top: 85px;
     width: 90%;
     margin:auto auto;
+    padding-bottom: 3em;
 }
 
 #vid1,
