@@ -66,6 +66,41 @@ text-decoration: none;
     text-align: center;
 }
 
+.bg-image-pricing{
+    background-color: #B2D3A8;
+    height: 100vh;
+    padding: 0;
+}
+
+.pricing {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb( 212, 175, 55);
+}
+
+
+#cost {
+    
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom:auto;
+    color: rgb(176, 244, 180);
+    height: auto;
+}
+
+#cost tr {
+    padding: 0;
+    
+
+    background-color: #498467;
+    color: rgba(176, 244, 180, 0.65);
+}
+
+#cost th {
+    background-color: rgba(64, 165, 71, 0.25);
+}
+
 .bg-image-buddy{
     background: url(../assets/nature-outdoor-rock-silhouette-light-cloud-1026034-pxhere.com.jpg) no-repeat center center fixed;
     height: 100vh;
@@ -201,7 +236,7 @@ text-decoration: none;
      border-style: groove;
      margin-top: 2em;
 }
- .page-footer a{
+ .page-footer{
      padding: 0;
     margin-bottom: 0;
     position: relative;
@@ -220,7 +255,7 @@ text-decoration: none;
     margin-bottom: 30px;
     background-color: rgb( 212, 175, 55);
     border-color: transparent;
-    width: 250px;
+    width: auto;
     height: 50px;
     border-radius: 15px;
     text-decoration: none;
