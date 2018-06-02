@@ -66,11 +66,32 @@ text-decoration: none;
     text-align: center;
 }
 
-.bg-image-pricing{
-    background-color: #B2D3A8;
-    height: 100vh;
-    padding: 0;
+
+
+.bg-image-pricing {
+    height:100vh;
+  background: 
+    /* top, transparent green, faked with gradient */ 
+    linear-gradient(
+      rgba(178,211,168,0.5), 
+      rgba(178,211,168,0.85)
+    ),
+    /* bottom, image */
+   url(../assets/images/money-heart.jpg) center center;
 }
+
+.bg-image-contact {
+    height:100vh;
+  background: 
+    /* top, transparent green, faked with gradient */ 
+    linear-gradient(
+      rgba(178,211,168,0.5), 
+      rgba(178,211,168,0.85)
+    ),
+    /* bottom, image */
+   url(/assets/images/phone-2476595_960_720.png) no-repeat center center;
+}
+  
 
 .pricing {
     color: white;
@@ -79,6 +100,11 @@ text-decoration: none;
     background-color: rgb( 212, 175, 55);
 }
 
+#img-bar {
+    float: left;
+    padding: 0;
+    margin: 24px 0px 24px 0px;
+    width: 100%;}
 
 #cost {
     
@@ -171,7 +197,8 @@ form {
     text-decoration: none;
     background-color: transparent;
     border:none;
-    font-size: 1.5em;
+    font-size: 18px;
+    text-align:center;
 }
 
 .email:hover{
@@ -207,7 +234,7 @@ form {
 }
 
 .bg-image-testimonials{
-    background: url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg) no-repeat center center fixed;
+    background: url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg)   center fixed;
     height: 100vh;
     padding: 0;
 }
@@ -291,6 +318,19 @@ form {
 
 .page-title{
     background-color:  rgba(0,0,0,0.5);
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 3px;
+    color: white;
+    margin-top: 7em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+.page-title1{
+    background-color:  rgba(0,0,0,0.85);
     border-style: groove;
     border-radius: 30px;
     border-width: 3px;
@@ -441,5 +481,11 @@ text-decoration: none;
 @media(max-width: 991px) {
     #contact-area {
         width: 70vw;
+    }
+}
+
+@media(min-width:414px) {
+    .button{
+        width: 250px;
     }
 }
