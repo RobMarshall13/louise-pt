@@ -68,6 +68,7 @@ text-decoration: none;
 
 
 
+
 .bg-image-pricing {
     height:100vh;
   background: 
@@ -101,11 +102,47 @@ text-decoration: none;
 }
 
 #img-bar {
+    
     float: left;
     padding: 0;
-    margin: 24px 0px 24px 0px;
-    width: 100%;}
+    margin: 14px 24px 14px 0px;
+    height: 170px}
+    
+    #img-weights {
+    float: right;
+    padding: 0;
+    margin: 14px 24px 14px 0px;
+    height: 170px}
+    
+    #img-buddy {
+    float: left;
+    padding: 0;
+    margin: 14px 24px 14px 0px;
+    height: 170px}
+    
+     #img-outside {
+    float: right;
+    padding: 0;
+    margin: 14px 24px 14px 0px;
+    height: 170px}
 
+
+@media(max-width:441px){
+   #img-outside,
+   #img-buddy,
+   #img-weights,
+   #img-bar{
+    display:block;
+    padding: 0;
+    margin:20px 0px 20px 0px;
+    clear: both;
+    height: auto;
+    max-width: 260px;
+       float: none;
+   }
+}
+    
+    
 #cost {
     
     padding: 0;
@@ -160,10 +197,12 @@ text-decoration: none;
     font-size: 1.4em;
     margin: 0px 0px 10px 0px;
     border: 2px solid #ccc;
+    color:#513B56;
 }
 
 #contact-area textarea {
     height: 90px;
+    color:#513B56;
 }
 
 #contact-area textarea:focus,
@@ -185,7 +224,7 @@ label {
     width: 100px;
     padding-top: 5px;
     font-size: 1.4em;
-    color: white;
+    color:#513B56;
 }
 
 form {
@@ -193,15 +232,17 @@ form {
     text-align: center;
 }
 
-.email{
+.contact-email a{
     text-decoration: none;
     background-color: transparent;
     border:none;
     font-size: 18px;
     text-align:center;
+    width: auto;
+    color:  rgb( 212, 175, 55);
 }
 
-.email:hover{
+.contact-email a:hover{
     text-decoration: none;
     background-color: transparent;
     border:none;
@@ -210,6 +251,7 @@ form {
 
 
 .text-box{
+    color:#513B56;
     
 }
 
@@ -230,14 +272,26 @@ form {
 .bg-image-one2one{
     background: url(../assets/camera-lens.jpg) no-repeat center center fixed;
     height: 100vh;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding: 0;
 }
 
-.bg-image-testimonials{
-    background: url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg)   center fixed;
-    height: 100vh;
-    padding: 0;
+.bg-image-testimonials {
+    height:100vh;
+  background: 
+    /* top, transparent green, faked with gradient */ 
+    radial-gradient(
+      rgba(178,211,168,0.5), 
+      rgba(178,211,168,0.85)
+    ),
+    /* bottom, image */
+   url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg) center center;
 }
+
+
 
 .navbar {
     margin-bottom: 0;
@@ -250,17 +304,7 @@ form {
     border: 0;
 }
 
-.navbar-main {
-    margin-bottom: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    z-index: 3;
-    background-color: black;
-    border: 0;
-}
+
 
 
 .navbar-default .navbar-collapse {
@@ -360,6 +404,14 @@ form {
      border-color: white;
      border-style: groove;
      margin-top: 2em;
+     margin-bottom: 2em;
+}
+
+.bottom{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    padding:0;
 }
 
 @media(min-width: 1024px){
