@@ -1,3 +1,5 @@
+/*-----------------------------------------------------------------------------------------images, videos and icons*/
+
 .callout-container {
     height: 100vh;
     background: url('../assets/success.jpg') no-repeat center center fixed;
@@ -10,64 +12,6 @@
     justify-content: center;
     position: relative;
 }
-
-#landingTitle {
-    font-size: 6rem;
-    font-family: "Lora", serif;
-    color: white;
-    margin-bottom: 30px;
-    text-shadow:black 3px 3px;
-    text-align:center;
-    
-    
-}
-
-#landingpt {
-    font-size: 4rem;
-    color: white;
-    margin-bottom: 30px;
-     text-shadow:black 2px 2px;
-}
-
-.goals{
-    color: #352602;
-    line-height: 50px;
-    font-style: italic;
-    padding:0;
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-   }
-
-.boldyou{
-    font-weight: bold;
-}
-
-.buttonlanding {
-    padding: 15px;
-    position: relative;
-    background-color: rgb( 212, 175, 55);
-    width: 250px;
-    height: 50px;
-    border-radius: 15px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-
-}
-
-.buttonlanding:hover {
-    background-color: #ffd232;
-    color: white;
-text-decoration: none;
-}
-
-.jumbotron{
-    background:transparent;
-    text-align: center;
-}
-
-
-
 
 .bg-image-pricing {
     height:100vh;
@@ -91,14 +35,6 @@ text-decoration: none;
     ),
     /* bottom, image */
    url(../assets/images/phone-2476595_960_720.png) no-repeat center center;
-}
-  
-
-.pricing {
-    color: white;
-    margin-bottom: 30px;
-    text-align: center;
-    background-color: rgb( 212, 175, 55);
 }
 
 #img-bar {
@@ -125,22 +61,258 @@ text-decoration: none;
     padding: 0;
     margin: 14px 24px 14px 0px;
     height: 170px}
-
-
-@media(max-width:441px){
-   #img-outside,
-   #img-buddy,
-   #img-weights,
-   #img-bar{
-    display:block;
+    
+    .bg-image-buddy{
+    background: url(../assets/nature-outdoor-rock-silhouette-light-cloud-1026034-pxhere.com.jpg) no-repeat center center fixed;
+    height: 100vh;
     padding: 0;
-    margin:20px 0px 20px 0px;
-    clear: both;
-    height: auto;
-    max-width: 260px;
-       float: none;
-   }
 }
+
+.bg-image-aboutme{
+    background: url(../assets/images/eldorado.jpg) no-repeat center center fixed;
+    background-color: black;
+    height: 100%;
+    padding: 0;
+}
+
+
+.bg-image-one2one{
+    background: url(../assets/camera-lens.jpg) no-repeat center center fixed;
+    height: 100vh;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+.bg-image-testimonials {
+    height:100vh;
+  background: 
+    /* top, transparent green, faked with gradient */ 
+    radial-gradient(
+      rgba(178,211,168,0.5), 
+      rgba(178,211,168,0.85)
+    ),
+    /* bottom, image */
+   url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg) center center;
+}
+
+.image-rounded{
+    margin-top: 1em;
+}
+
+#les-mills,
+#nasm,
+#cimpsa {
+    height: 5em;
+}
+
+.vid-box {
+    margin-top: 85px;
+    width: 90%;
+    margin:auto auto;
+    padding-bottom: 3em;
+}
+
+#vid1,
+#vid2,
+#vid3 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+    
+    .kal {
+    color: white;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+   
+}
+
+.kal:hover {
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+     transition-timing-function:ease-in-out;
+    transition-duration: .5s;
+}
+
+.social {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color:black;
+}
+
+.social a {
+    margin-right: 30px;
+    color: white;
+     background-color:black;
+}
+
+/*------------------------------------------------------------------button*/
+.buttonlanding {
+    padding: 15px;
+    position: relative;
+    background-color: rgb( 212, 175, 55);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.buttonlanding:hover {
+    background-color: #ffd232;
+    color: white;
+text-decoration: none;
+}
+
+ .button {
+    padding: 15px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb( 212, 175, 55);
+    border-color: transparent;
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ffd232;
+    color: white;
+text-decoration: none;
+}
+
+/*-----------------------------------------------------------------navigation*/
+
+
+.navbar {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:black;
+    border: 0;
+}
+
+
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    
+}
+
+
+
+
+
+/*-------------------------------------------------------------landing page*/
+
+.jumbotron{
+    background:transparent;
+    text-align: center;
+    
+}
+
+
+
+#landingTitle {
+    font-size: 6rem;
+    font-family: "Lora", serif;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow:black 3px 3px;
+    text-align:center;
+   
+    
+    
+}
+
+#landingpt {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 30px;
+     text-shadow:black 2px 2px;
+}
+
+.goals{
+    color: #352602;
+    line-height: 50px;
+    font-style: italic;
+    padding:0;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+   }
+
+.boldyou{
+    font-weight: bold;
+}
+
+
+
+
+/*---------------------------------------------------------main content*/
+
+
+
+.pricing {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb( 212, 175, 55);
+}
+
+
+
+
     
     
 #cost {
@@ -164,22 +336,6 @@ text-decoration: none;
     background-color: rgba(64, 165, 71, 0.25);
 }
 
-.kal {
-    color: white;
-    height: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-   
-}
-
-.kal:hover {
-    height: 80px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-     transition-timing-function:ease-in-out;
-    transition-duration: .5s;
-}
 
 #contact-area {
 
@@ -255,110 +411,11 @@ form {
     
 }
 
-.bg-image-buddy{
-    background: url(../assets/nature-outdoor-rock-silhouette-light-cloud-1026034-pxhere.com.jpg) no-repeat center center fixed;
-    height: 100vh;
-    padding: 0;
-}
-
-.bg-image-aboutme{
-    background: url(../assets/images/eldorado.jpg) no-repeat center center fixed;
-    background-color: black;
-    height: 100%;
-    padding: 0;
-}
-
-
-.bg-image-one2one{
-    background: url(../assets/camera-lens.jpg) no-repeat center center fixed;
-    height: 100vh;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 0;
-}
-
-.bg-image-testimonials {
-    height:100vh;
-  background: 
-    /* top, transparent green, faked with gradient */ 
-    radial-gradient(
-      rgba(178,211,168,0.5), 
-      rgba(178,211,168,0.85)
-    ),
-    /* bottom, image */
-   url(../assets/images/vector-hand-drawn-quotation-mark-symbol-set.jpg) center center;
-}
-
-
-
-.navbar {
-    margin-bottom: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color:black;
-    border: 0;
-}
 
 
 
 
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-}
 
-.navbar-default .navbar-toggle {
-    border: 0;
-}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-
-
-.navbar-default .navbar-nav a {
-    font-weight: bold;
-    
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background: black;
-}
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    
-}
-
-
-
-
-.social {
-    float: right;
-    position: relative;
-    margin-top: 10px;
-    margin-right: 20px;
-    background-color:black;
-}
-
-.social a {
-    margin-right: 30px;
-    color: white;
-     background-color:black;
-}
 
 .page-title{
     background-color:  rgba(0,0,0,0.5);
@@ -414,41 +471,9 @@ form {
     padding:0;
 }
 
-@media(min-width: 1024px){
- .bottom {
-     margin-top:calc(100vh - 80px);
-     padding-bottom: 0;
-    margin-bottom: 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    border: 0;
-    color: white;
- }
-}
- 
- .button {
-    padding: 15px;
-    position: relative;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    background-color: rgb( 212, 175, 55);
-    border-color: transparent;
-    width: auto;
-    height: 50px;
-    border-radius: 15px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
 
-.button:hover {
-    background-color: #ffd232;
-    color: white;
-text-decoration: none;
-}
+ 
+
 
 
 .lou-title{
@@ -466,15 +491,6 @@ text-decoration: none;
     color: rgb( 212, 175, 55);
 }
 
-.image-rounded{
-    margin-top: 1em;
-}
-
-#les-mills,
-#nasm,
-#cimpsa {
-    height: 5em;
-}
 
 #ct {
     color: rgb( 212, 175, 55);
@@ -490,20 +506,7 @@ text-decoration: none;
     padding-bottom: .5em;
 }
 
-.vid-box {
-    margin-top: 85px;
-    width: 90%;
-    margin:auto auto;
-    padding-bottom: 3em;
-}
-
-#vid1,
-#vid2,
-#vid3 {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
+/*----------------------------------------------------------------------media queries*/
 @media(min-width:991px) {
     #vid1,
     #vid2,
@@ -540,4 +543,40 @@ text-decoration: none;
     .button{
         width: 250px;
     }
+}
+
+@media(max-width: 812px){
+    .jumbotron{
+         padding-top: 20rem;
+    }
+}
+
+@media(min-width: 1024px){
+ .bottom {
+     margin-top:calc(100vh - 80px);
+     padding-bottom: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border: 0;
+    color: white;
+ }
+}
+
+@media(max-width:441px){
+   #img-outside,
+   #img-buddy,
+   #img-weights,
+   #img-bar{
+    display:block;
+    padding: 0;
+    margin:20px 0px 20px 0px;
+    clear: both;
+    height: auto;
+    max-width: 260px;
+       float: none;
+   }
 }
